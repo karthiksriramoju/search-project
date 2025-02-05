@@ -1,53 +1,51 @@
-# Next.js & NextUI Template
+# 🔍 Search-Project
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+## 🚀 All-in-One Search for Coding Problems
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+I’m thrilled to announce that I’ve built a platform that simplifies the searching of coding practice problems across various platforms.
 
-## Technologies Used
+## 🌟 What It Does
+This platform allows users to search data structures and algorithms problems across multiple platforms (like LeetCode, HackerRank, etc.). Instead of jumping from one platform to another, you can search by problem name and find out how many platforms feature that problem, helping you practice efficiently.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## 🔍 How It Works
+- **Unified Search:** Enter a problem name, and the platform will show which platforms offer that problem or similar ones.
+- **Quick Navigation:** Click on a problem, and you'll be taken to the respective platform to solve it right away.
 
-## How to Use
+## 🛠 Tech Stack
+- **Frontend:** Next.js (TypeScript)
+- **UI Library:** NextUI
+- **Data Handling:** Web scraping for fetching problem data across multiple platforms
+- **Search Engine:** Fuse.js for fast, fuzzy matching of problem names
+- **Hosting:** Vercel for seamless deployment
 
-### Use the template with create-next-app
+## 🔧 Local Setup
 
-To create a new project based on this template using `create-next-app`, run the following command:
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (Recommended: v16+)
+- [Yarn](https://yarnpkg.com/) or npm
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+### 🛠 Steps to Run Locally
+
+1️⃣ **Clone the repository**
+```sh
+ git clone https://github.com/karthiksriramoju/search-project.git
+ cd search-project
 ```
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
+2️⃣ **Install dependencies**
+```sh
+ npm install
 ```
 
-### Run the development server
-
-```bash
-npm run dev
+3️⃣ **Run the development server**
+```sh
+ npm run dev
 ```
+This will start the server at `http://localhost:3000`.
 
-### Setup pnpm (optional)
+## 🤝 Contributions
+Feel free to open issues and submit pull requests! 🚀
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+## 📜 License
+This project is licensed under the MIT License.
